@@ -1,7 +1,7 @@
 {
   "name": "netflix-react-js",
   "version": "0.1.0",
-  "homepage": "https://fireclint.github.io/netflix-react-tailwind/",
+  "homepage": "https://Enas-Sello.github.io/Netflix_clone",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.27.2",
     "firebase": "^9.8.4",
-    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
@@ -19,9 +18,9 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,6 +45,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.13",
     "tailwindcss": "^3.0.24"
   }
